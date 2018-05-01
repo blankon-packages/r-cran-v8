@@ -1,0 +1,13 @@
+Tests: vignette
+Depends: @, r-cran-knitr
+Restrictions: allow-stderr
+
+Tests: run-unit-test
+Depends: @, r-cran-testthat,
+Restrictions: allow-stderr
+
+Tests: generic
+Depends: @, r-cran-testthat,
+Restrictions: allow-stderr
+
+

@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+for vignette in $(find vignettes -iname '*.rnw' -or -iname '*.rmd'); do
+    echo "BEGIN VIGNETTE $vignette"
+    LC_ALL=C R CMD Sweave $vignette
+done
+

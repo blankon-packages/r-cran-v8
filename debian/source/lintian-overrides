@@ -1,0 +1,11 @@
+# javascript detection mistakes
+r-cran-v8 source: source-contains-prebuilt-javascript-object inst/js/crossfilter.js line length is 9562 characters (>512)
+r-cran-v8 source: source-is-missing inst/js/crossfilter.js line length is 9562 characters (>512)
+#
+#underscore items
+r-cran-v8 source: source-contains-prebuilt-javascript-object inst/js/underscore.js line length is 15371 characters (>512)
+r-cran-v8 source: source-is-missing inst/js/underscore.js line length is 15371 characters (>512)
+r-cran-v8 source: insane-line-length-in-source-file inst/js/underscore.js line length is 15371 characters (>512)
+
+# beauty
+r-cran-v8 source: source-is-missing vignettes/beautify.js line length is 480 characters (>256)

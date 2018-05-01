@@ -1,0 +1,32 @@
+Source: r-cran-v8
+Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
+XSBC-Original-Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
+Section: gnu-r
+Priority: optional
+Build-Depends: debhelper (>= 10),
+               dh-r,
+               r-base-dev,
+               r-cran-rcpp (>= 0.12),
+               r-cran-jsonlite,
+               r-cran-curl,
+               libv8-3.14-dev
+Standards-Version: 4.1.1
+Vcs-Browser: https://anonscm.debian.org/git/debian-science/packages/r-cran-v8.git
+Vcs-Git: https://anonscm.debian.org/git/debian-science/packages/r-cran-v8.git
+Homepage: https://cran.r-project.org/package=V8
+
+Package: r-cran-v8
+Architecture: any
+Depends: ${R:Depends},
+         ${shlibs:Depends},
+         ${misc:Depends},
+         libjs-underscore
+Recommends: ${R:Recommends}
+Suggests: ${R:Suggests}
+Description: Embedded JavaScript Engine for R
+ An R interface to Google's open source JavaScript engine.
+ V8 is written in C++ and implements ECMAScript as specified in ECMA-262,
+ 5th edition. In addition, this package implements typed arrays as
+ specified in ECMA 6 used for high-performance computing and libraries
+ compiled with 'emscripten'.

@@ -1,0 +1,8 @@
+r-cran-v8 Debian package.
+
+inst/doc/v8_intro.html is a generated file from v8_intro.Rmd [1]
+
+
+Leopold Palomo-Avellaneda 20170330
+
+[1] https://github.com/jeroen/V8/issues/35
